@@ -1,0 +1,35 @@
+@import "color-palette.css";
+.navigation .nav-content ul li>a.active{
+    border-right: 5px solid var(--primary_medium);
+}
+.navigation .nav-content ul li>a.active span{
+    color: var(--primary_medium) !important;
+}
+.navigation .nav-content ul li>a.active:hover span{
+    color: var(--primary_dark) !important;
+}
+
+.bg-primary-light{
+    background: var(--primary_light) !important;
+}
+.bg-primary-medium{
+    background: var(--primary_medium) !important;
+}
+.bg-primary-dark{
+    background: var(--primary_dark) !important;
+}
+.bg-primary-gradiant-custom{background:linear-gradient(to right,var(--primary_dark),var(--primary_medium))!important}
+
+
+
+
+.img-container{
+    height: 350px;
+}
+.data-card{
+    transition: 0.4s;
+}
+.data-card:hover{
+    transform: translateY(-10px); /* Lift effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Bigger shadow */
+}
